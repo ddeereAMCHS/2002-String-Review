@@ -1,5 +1,7 @@
 # String Review
 
+## Due: DoW MM/DD at 11:59 PM
+
 - Create a program called `StringReview.java`
 - Prompt the user for a phrase
 - Find the index of the first occurence each of the following characters in the phrase: t, i, g, e, and r
