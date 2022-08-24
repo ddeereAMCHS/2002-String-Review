@@ -5,7 +5,7 @@
       "setup": "javac StringReview.java",
       "run": "java StringReview",
       "input": "today is a great day",
-      "output": "today is g$",
+      "output": "today is a g$",
       "comparison": "regex",
       "timeout": 10,
       "points": null
