@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "T to G",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "today is a great day",
+      "output": "today is g$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "T to R",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "today i went for a run",
+      "output": "today i went for$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "G to R",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "i saw a gorilla",
+      "output": "gor$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "E to R",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "have you ever wondered",
+      "output": "e you ever$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "G to T",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "he is a goat",
+      "output": "goat$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "R to T",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "where is rust",
+      "output": "re is rust$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "R to G",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "run gorilla",
+      "output": "run g$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "R to E",
+      "setup": "javac StringReview.java",
+      "run": "java StringReview",
+      "input": "read a book",
+      "output": "re$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
