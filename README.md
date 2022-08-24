@@ -3,7 +3,7 @@
 ## Due: Thur 8/25 at 11:59 PM
 
 - Create a program called `StringReview.java`
-- Prompt the user for a phrase
+- Prompt the user for a phrase (all lowercase)
 - Find the index of the first occurence each of the following characters in the phrase: t, i, g, e, and r
 - If t and g are in the String, return the substring from t to g (including g)
 - If g is not in the String, return the substring from t to r (including r)
