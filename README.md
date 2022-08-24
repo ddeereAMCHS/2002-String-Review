@@ -5,12 +5,12 @@
 - Create a program called `StringReview.java`
 - Prompt the user for a phrase (all lowercase)
 - Find the index of the first occurence each of the following characters in the phrase: t, i, g, e, and r
-- If t and g are in the String, return the substring from t to g (including g)
-- If g is not in the String, return the substring from t to r (including r)
+- If t and g are in the String, print the substring from t to g (including g)
+- If g is not in the String, print the substring from t to r (including r)
   - You can assume r is in the String in this case
-- If t is not in the String, return the substring from g to r (including r)
+- If t is not in the String, print the substring from g to r (including r)
   - You can assume r is in the String in this case
-- If neither t nor g are in the String, return the substring from e to r (including r)
+- If neither t nor g are in the String, print the substring from e to r (including r)
   - You can assume e and r are in the String in this case 
 
 ***Example Input:***\
