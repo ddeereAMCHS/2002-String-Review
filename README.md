@@ -18,7 +18,7 @@ today is g
 ***Example Input:***\
 today i went for a run\
 ***Example Output:***\
-today i went for a r
+today i went for
 
 ***Example Input:***\
 i saw a gorilla\
