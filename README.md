@@ -1,6 +1,6 @@
 # String Review
 
-## Due: Thur 8/25 at 11:59 PM
+## Due: Thur 8/24 at 11:59 PM
 
 - Create a program called `StringReview.java`
 - Prompt the user for a phrase (all lowercase)
